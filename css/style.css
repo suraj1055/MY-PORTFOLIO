@@ -54,6 +54,11 @@
     margin-bottom: 7px;
 }
 
+.mobile .Hamburger span{
+    transform-origin: left;
+    transition: all .3s ease-in;
+}
+
 .Hamburger, .logo, .theme-changer{
     z-index: 999;
 }
