@@ -19,6 +19,14 @@
         height: 1px;
     }
 
+    .main .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: 800px;
+    }
+
 
 }
 
@@ -30,7 +38,7 @@
     }
 
     .navigation-menu .logo{
-        padding-left: 0;
+        padding: 0 1rem;
         font-size: 1rem;
     }
 
@@ -43,5 +51,12 @@
         height: 1px;
     }
 
+    .main .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: 800px;
+    }
 
 }

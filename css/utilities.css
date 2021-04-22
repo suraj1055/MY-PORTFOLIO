@@ -26,17 +26,15 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background: var(--secondary);
+    background: var(--primary);
     color: var(--font-color);
 }
 
 .container{
     background: var(--primary);
-    width: 1000px;
-    height: 500px;
+    width: 1100px;
     max-width: 90%;
-    margin: 3rem auto;
-    border-radius: 2rem;
+    margin: 0 auto;
 }
 
 .flex{
@@ -50,4 +48,9 @@ body{
     align-items: center;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
 

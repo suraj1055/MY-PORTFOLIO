@@ -19,6 +19,8 @@ let MobileNav = document.querySelector('.nav-items');
 
 let bars = document.querySelectorAll('.Hamburger span');
 
+let Main = document.querySelectorAll('.main');
+
 let isActive = false;
 
 Hamburger.addEventListener('click', function(){

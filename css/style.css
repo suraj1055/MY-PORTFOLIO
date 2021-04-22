@@ -88,3 +88,55 @@
     padding-bottom: 30px;
 }
 
+/* ************** MAIN ************* */
+.main .Hamburger{
+    display: none;
+}
+
+.main{
+    position: relative;
+}
+
+.main .container{
+    height: 600px;
+}
+
+.main-photo img{
+    margin: 4rem 5rem;
+    height: 350px;
+    border: 8px solid var(--pure);
+    border-radius: 50%;
+}
+
+.main-text{
+    margin: 0 4rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-text h2{
+    font-size: 4rem;
+}
+
+.main-text .typing{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.main-text .btn{
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    color: var(--font-color);
+    background: var(--accent);
+    border-radius: 45px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.main-text .btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
