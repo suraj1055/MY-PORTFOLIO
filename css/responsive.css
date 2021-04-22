@@ -32,7 +32,7 @@
 
 @media (min-width: 0px) and (max-width: 400px){
     .container{
-        width: 350px;
+        width: 450px;
         margin: 0 auto;
         max-width: 90%;
     }
@@ -49,6 +49,7 @@
     .mobile .Hamburger span{
         width: 22px;
         height: 1px;
+        margin-left: 4rem;
     }
 
     .main .container{
