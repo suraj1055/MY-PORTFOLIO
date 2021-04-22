@@ -90,14 +90,6 @@
 }
 
 /* ************** MAIN ************* */
-.main .Hamburger{
-    display: none;
-}
-
-.main{ 
-    position: relative;
-}
-
 .main .container{
     height: 600px;
 }
