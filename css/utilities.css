@@ -33,8 +33,10 @@ body{
 .container{
     background: var(--primary);
     width: 1000px;
+    height: 500px;
     max-width: 90%;
-    margin: 0 auto;
+    margin: 3rem auto;
+    border-radius: 2rem;
 }
 
 .flex{
