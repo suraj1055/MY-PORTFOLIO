@@ -26,11 +26,12 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background: var(--primary);
+    background: var(--secondary);
     color: var(--font-color);
 }
 
 .container{
+    background: var(--primary);
     width: 1000px;
     max-width: 90%;
     margin: 0 auto;
