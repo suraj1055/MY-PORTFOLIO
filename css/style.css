@@ -80,6 +80,7 @@
 .mobile ul.nav-items.open{
     opacity: 1;
     pointer-events: auto;
+   
 }
 
 .mobile ul.nav-items li{
@@ -93,7 +94,7 @@
     display: none;
 }
 
-.main{
+.main{ 
     position: relative;
 }
 
