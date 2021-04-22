@@ -67,20 +67,20 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 50%;
     top: 0;
     left: 0;
     padding-top: 80px;
     position: fixed;
+    background: var(--primary);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease-in;
 }
 
 .mobile ul.nav-items.open{
-    opacity: 1;
+    opacity: 0.9;
     pointer-events: auto;
-   
 }
 
 .mobile ul.nav-items li{

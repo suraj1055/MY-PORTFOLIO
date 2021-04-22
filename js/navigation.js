@@ -19,12 +19,14 @@ let MobileNav = document.querySelector('.nav-items');
 
 let bars = document.querySelectorAll('.Hamburger span');
 
-let Main = document.querySelector('.main');
+let Main = document.querySelector('section');
 
 let isActive = false;
 
 Hamburger.addEventListener('click', function(){
     MobileNav.classList.toggle('open');
+
+    Main.classList.toggle('nav');
 
     if(!isActive){
         bars[0].style.transform = 'rotate(45deg)';
