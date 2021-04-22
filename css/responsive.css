@@ -52,8 +52,7 @@
     }
 
     .navigation-menu .logo{
-        padding: 0 1rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: bold;
     }
 
@@ -76,7 +75,7 @@
     }
 
     .main-photo img{
-        height: 200px;
+        height: 250px;
     }
 
     .main-text h2{
@@ -85,7 +84,7 @@
     
     .main-text .typing{
         margin-bottom: 1.5rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
 }
