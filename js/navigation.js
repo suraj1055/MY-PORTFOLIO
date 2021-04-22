@@ -19,7 +19,7 @@ let MobileNav = document.querySelector('.nav-items');
 
 let bars = document.querySelectorAll('.Hamburger span');
 
-let Main = document.querySelectorAll('.main');
+let Main = document.querySelector('.main');
 
 let isActive = false;
 
