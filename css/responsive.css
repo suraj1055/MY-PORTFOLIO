@@ -25,6 +25,7 @@
         justify-content: center;
         flex-direction: column-reverse;
         height: 800px;
+
     }
 
     .main-text h2{
@@ -41,7 +42,7 @@
 
 @media (min-width: 0px) and (max-width: 450px){
     .container{
-        width: 350px;
+        width: 600px;
         margin: 0 auto;
         max-width: 90%;
     }
@@ -64,9 +65,13 @@
     .main .container{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         flex-direction: column-reverse;
-        height: 600px;
+        height: 550px;
+    }
+
+    .main-photo img{
+        height: 300px;
     }
 
     .main-text h2{
@@ -74,6 +79,7 @@
     }
     
     .main-text .typing{
+        margin-bottom: 1rem;
         font-size: 1.5rem;
     }
 
