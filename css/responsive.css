@@ -71,7 +71,7 @@
         align-items: center;
         justify-content: space-around;
         flex-direction: column-reverse;
-        height: 550px;
+        height: 660px;
     }
 
     .main-photo img{
@@ -87,4 +87,7 @@
         font-size: 2rem;
     }
 
+    .footer .container h3{
+        font-size: .8rem;
+    }
 }

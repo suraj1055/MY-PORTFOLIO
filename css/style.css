@@ -92,6 +92,8 @@
 /* ************** MAIN ************* */
 .main .container{
     height: 600px;
+    border: 2px solid var(--pure);
+    border-radius: 15px;
 }
 
 .main-photo img{
@@ -117,7 +119,7 @@
 }
 
 .main-text .btn{
-    margin-top: 1.5rem;
+    margin-top: .5rem;
     padding: 0.6rem 1rem;
     color: var(--font-color);
     background: var(--accent);
@@ -153,4 +155,10 @@
     100%{
         opacity: 100%;
     }
+}
+
+/* ************** FOOTER **************** */
+.footer .container{
+    height: 50px;
+    justify-content: center;
 }
