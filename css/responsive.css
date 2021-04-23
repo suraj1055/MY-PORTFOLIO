@@ -113,10 +113,14 @@
     }
 
     .about .my-education .education, .my-skills .skills{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: .7rem;
-        margin-right: 4rem ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .my-education .education .card, .my-skills .skills .card{
+        margin-bottom: 0.5rem;
+        width: 300px;
     }
 
     .my-certificates .certificates{
