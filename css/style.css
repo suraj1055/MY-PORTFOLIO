@@ -148,7 +148,7 @@
 
 /* **************** ABOUT ***************** */
 .about .container{
-    height: 1550px;
+    height: 1050px;
     border-top: 0.1px solid var(--pure);
     border-bottom: 0.1px solid var(--pure);
 }
