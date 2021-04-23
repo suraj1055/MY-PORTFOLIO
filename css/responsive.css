@@ -112,6 +112,10 @@
         height: 4800px;
     }
 
+    .about .my-info p{
+        font-size: 0.5rem;
+    }
+
     .about .my-education .education, .my-skills .skills{
         display: flex;
         flex-direction: column;
