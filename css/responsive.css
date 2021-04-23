@@ -40,7 +40,24 @@
         font-size: 1.5rem;
     }
 
+    .footer .container h3{
+        font-size: .8rem;
+    }
 
+    .about .container{
+        height: 4600px;
+    }
+
+    .about .my-education .education, .my-skills .skills{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: .7rem;
+        margin-right: 4rem ;
+    }
+
+    .my-certificates .certificates{
+        grid-template-columns: 1fr;
+    }
 
 }
 
@@ -89,5 +106,20 @@
 
     .footer .container h3{
         font-size: .8rem;
+    }
+
+    .about .container{
+        height: 4500px;
+    }
+
+    .about .my-education .education, .my-skills .skills{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: .7rem;
+        margin-right: 4rem ;
+    }
+
+    .my-certificates .certificates{
+        grid-template-columns: 1fr;
     }
 }

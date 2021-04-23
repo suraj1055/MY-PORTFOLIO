@@ -48,9 +48,53 @@ body{
     align-items: center;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+.flex-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.card{
+   background-color: #fff;
+   color: #333;
+   border-radius: 10px;
+   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+   padding: 15px 40px;
+   font-weight: bold;
+}
+
+.btn{
+    margin-top: .5rem;
+    padding: 0.6rem 1rem;
+    color: var(--font-color);
+    background: var(--accent);
+    border-radius: 45px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-2{
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .grid{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 1rem;
+ }
