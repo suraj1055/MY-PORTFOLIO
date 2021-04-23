@@ -45,18 +45,27 @@
     }
 
     .about .container{
-        height: 4600px;
+        height: 1800px;
     }
 
-    .about .my-education .education, .my-skills .skills{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: .7rem;
-        margin-right: 4rem ;
+    .about .my-info p{
+        font-size: 0.6rem;
+    }
+
+    .about .my-education .education, .my-skills .skills, .about .my-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .my-education .education .card, .my-skills .skills .card, .about .my-info .card{
+        margin-bottom: 0.5rem;
+        width: 300px;
     }
 
     .my-certificates .certificates{
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
@@ -128,6 +137,17 @@
     }
 
     .my-certificates .certificates{
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Certificates h1{
+        font-size: 1.5rem;
+    }
+
+    .my-certificates .certificates .card-2{
+        width: 300px;
     }
 }
