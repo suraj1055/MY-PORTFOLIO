@@ -213,3 +213,47 @@
 .my-certificates{
     margin: 60px 5rem;
 }
+
+/* *************************** PROJECTS ************************ */
+.projects .container{
+    border-top: 0.1px solid var(--pure);
+    border-bottom: 0.1px solid var(--pure);
+    height: 650px;
+}
+
+.projects h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.my-projects{
+    margin-top: 2rem;
+}
+
+.projects .card{
+    height: 480px;
+    width: 400px;
+    margin-right: 0.6rem;
+}
+
+.my-projects li{
+    list-style-type: disc;
+}
+
+.my-projects p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.my-projects h2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.my-projects .btn{
+    margin-top: 1rem ;
+}
