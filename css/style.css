@@ -148,7 +148,7 @@
 
 /* **************** ABOUT ***************** */
 .about .container{
-    height: 1500px;
+    height: 1550px;
     border-top: 0.1px solid var(--pure);
     border-bottom: 0.1px solid var(--pure);
 }
@@ -161,6 +161,14 @@
 
 .about .my-info{
     margin: 30px;
+}
+
+.about .my-info .card{
+    margin: 0.7rem;
+}
+
+.about .my-info .card li{
+    list-style-type: disc;
 }
 
 .my-info p{
