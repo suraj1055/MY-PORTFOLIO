@@ -149,8 +149,8 @@
 /* **************** ABOUT ***************** */
 .about .container{
     height: 1500px;
-    border: 0.1px solid var(--pure);
-    border-radius: 15px;
+    border-top: 0.1px solid var(--pure);
+    border-bottom: 0.1px solid var(--pure);
 }
 
 .about h1{
