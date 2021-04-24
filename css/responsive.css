@@ -291,4 +291,26 @@
         margin-left: 0.5rem;
     }
 
+    .contact .container{
+        height: 800px;
+    }
+
+    .form{
+        width: 250px;
+        height: 380px;
+    }
+
+    .contact .social{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .social .card{
+        margin-bottom: 1rem;
+        width: 250px;
+    }
+
+    .form-control input{
+        width: 100%;
+    }
 }

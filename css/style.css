@@ -256,3 +256,97 @@
 .my-projects .btn{
     margin-top: 1rem ;
 }
+
+/* ************************* CONTACT ************************** */
+.contact .container{
+    border-top: 0.1px solid var(--pure);
+    border-bottom: 0.1px solid var(--pure);
+    flex-direction: column;
+    height: 750px;
+}
+
+.contact .container h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.container .social a{
+    margin-right: 4rem;
+    font-size: 1rem;
+}
+
+.social i{
+    margin-right: 0.5rem;
+}
+
+.social{
+    margin-left: 3rem;
+}
+
+.container .form{
+    margin-top: 3rem;
+}
+
+.form{
+    width: 600px;
+    height: 400px;
+}
+
+.form-control{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.form-control input, textarea{
+    width: 100%;
+    padding: 8px;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control i{
+    position: absolute;
+    right: 8px;
+    top: 40px;
+    visibility: hidden;
+}
+
+.form-control small{
+    color: #e74c3c;
+    position: absolute;
+    bottom: -12;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
