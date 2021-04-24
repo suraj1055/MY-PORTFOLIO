@@ -1,6 +1,102 @@
+@media (min-width: 750px) and (max-width: 1050px){
+    .container{
+        width: 700px;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .navigation-menu .logo{
+        padding-left: 0;
+        font-size: 1rem;
+    }
+
+    .theme-changer select{
+        width: 100px;
+    }
+
+    .navigation-menu .nav-items li a{
+        font-size: 0.9rem; 
+    }
+
+    .mobile .Hamburger span{
+        width: 22px;
+        height: 1px;
+    }
+
+    .main .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: 800px;
+
+    }
+
+    .main-photo img{
+        height: 300px;
+    }
+
+    .main-text h2{
+        font-size: 3rem;
+    }
+    
+    .main-text .typing{
+        font-size: 1.5rem;
+    }
+
+    .footer .container h3{
+        font-size: .8rem;
+    }
+
+    .about .container{
+        height: 1800px;
+    }
+
+    .about .my-info p{
+        font-size: 0.6rem;
+    }
+
+    .about .my-education .education, 
+    .my-skills .skills, 
+    .about .my-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .my-education .education .card, 
+    .my-skills .skills .card, 
+    .about .my-info .card{
+        margin-bottom: 0.5rem;
+        width: 300px;
+    }
+
+    .my-certificates .certificates{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projects .container{
+        height: 950px;
+    }
+
+    .projects .my-projects{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+
+    .my-projects .card{
+        height: 400px;
+        width: 300px;
+        margin-bottom: 0.6rem;
+        margin-left: 0.5rem;
+    }
+}
+
 @media (min-width: 450px) and (max-width: 750px){
     .container{
-        width: 500px;
+        width: 700px;
+        height: 700px;
         margin: 0 auto;
         max-width: 90%;
     }
@@ -70,6 +166,24 @@
     .my-certificates .certificates{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .projects .container{
+        height: 1750px;
+    }
+
+    .projects .my-projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-projects .card{
+        height: 400px;
+        width: 300px;
+        margin-bottom: 0.6rem;
+        margin-left: 0.5rem;
     }
 
 }
