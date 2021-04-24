@@ -102,12 +102,14 @@
     height: 350px;
     border: 8px solid var(--pure);
     border-radius: 50%;
+    animation: SlideInFromRight 1s ease-in;
 }
 
 .main-text{
     margin: 0 4rem;
     flex-direction: column;
     justify-content: center;
+    animation: SlideInFromLeft 1s ease-in;
 }
 
 .main-text h2{
@@ -154,6 +156,7 @@
     border-top: 5px solid var(--pure);
     border-bottom: 5px solid var(--pure);
     border-radius: 10px;
+    animation: Appear 1s ease-in;
 }
 
 .about h1{
@@ -202,6 +205,7 @@
     border-top: 5px solid var(--pure);
     border-bottom: 5px solid var(--pure);
     border-radius: 10px;
+    animation: Appear 1s ease-in;
 }
 
 .Certificates h1{
@@ -224,6 +228,7 @@
     border-bottom: 5px solid var(--pure);
     border-radius: 10px;
     height: 650px;
+    animation: Appear 1s ease-in;
 }
 
 .projects h1{
@@ -269,6 +274,7 @@
     border-radius: 10px;
     flex-direction: column;
     height: 750px;
+    animation: Appear 1s ease-in;
 }
 
 .contact .container h1{
@@ -355,4 +361,33 @@
 
 .form-control.error small{
     visibility: visible;
+}
+
+@keyframes SlideInFromLeft{
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes SlideInFromRight{
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes Appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
